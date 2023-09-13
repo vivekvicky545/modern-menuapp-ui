@@ -1,0 +1,86 @@
+.menu {
+  width: max(24rem, 30vw);
+  margin: 1rem auto;
+  padding: 1rem 0.6rem;
+}
+
+.menu-category h2 {
+  text-align: left;
+  padding-left: 1rem;
+  padding: 0.8rem 1.2rem;
+  background-color: #f06543;
+  color: #e8e9eb;
+  border-radius: 8px 8px 0 0;
+  font-weight: 700;
+  font-family: "Alegreya Sans SC", sans-serif;
+}
+
+.item {
+  padding: 0.2rem 0;
+  display: flex;
+  justify-content: space-between;
+  font-weight: 600;
+  margin: 0.2rem 0;
+  padding: 0.4rem 0.4rem;
+  color: #000;
+  border-radius: 4px;
+  font-family: "Oswald", sans-serif;
+  position: relative;
+  /* border-radius: 0.2rem; */
+}
+.disable {
+  opacity: 0.3;
+}
+
+.item-name {
+  font-size: 1.1rem;
+}
+
+.restaurant-title h1 {
+  /* background-color: aqua; */
+  text-align: center;
+  padding: 1rem;
+  margin-bottom: 1rem;
+}
+
+.tag {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 1rem;
+}
+
+.item-block {
+  display: flex;
+  justify-content: space-between;
+  flex-grow: 1;
+}
+
+.menu-list {
+  padding: 0.4rem 0.8rem;
+  color: #d4f5f5;
+  /* background: rgba(53, 129, 184, 0.3); */
+  background-color: #e0dfd5;
+  border-radius: 0 0 8px 8px;
+  margin-bottom: 1rem;
+}
+
+.non-veg {
+  background-color: red;
+}
+
+.veg {
+  background-color: green;
+}
+
+.box {
+  height: 1.2rem;
+  border-radius: 100%;
+  aspect-ratio: 1/1;
+}
+
+.item-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.4rem;
+}

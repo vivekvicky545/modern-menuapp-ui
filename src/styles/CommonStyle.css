@@ -1,0 +1,94 @@
+.link {
+  padding: 1rem 0;
+  border: 1px solid black;
+  display: inline-block;
+  text-decoration: none;
+  color: #000;
+  width: max(15rem, 25vw);
+  border-radius: 4px;
+  transition: all 500ms;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.4rem;
+  background-color: #e0dfd5;
+}
+.link:hover {
+  background-color: #f06543;
+  color: #e8e9eb;
+}
+.link:hover .icon {
+  fill: #e8e9eb;
+  font-weight: 900;
+}
+
+.container {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 0.4rem;
+}
+
+.add {
+  margin-bottom: 1rem;
+  width: 100%;
+  background-color: #e0dfd5;
+  font-weight: 700;
+}
+
+.checkbox-wrapper {
+  border-radius: 100%;
+  overflow: hidden;
+  width: 24px;
+  height: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.logout-btn {
+  padding: 0.6rem 2rem;
+  margin-bottom: 0.4rem;
+  background-color: #313638;
+  box-shadow: none;
+  border: none;
+  color: #e8e9eb;
+}
+
+.logout-btn:hover {
+  cursor: pointer;
+}
+
+.icon {
+  fill: #313638;
+  width: 18px;
+  height: 18px;
+  transition: 500ms;
+}
+.licon {
+  position: relative;
+  bottom: -1.2px;
+}
+
+.cion {
+  position: relative;
+  bottom: -1.1px;
+}
+
+.price {
+  display: flex;
+  align-items: center;
+  gap: 0.1rem;
+  justify-content: center;
+}
+.admin {
+  padding-right: 0.8rem;
+}
+
+.price svg {
+  position: relative;
+  bottom: -1.2px;
+}
